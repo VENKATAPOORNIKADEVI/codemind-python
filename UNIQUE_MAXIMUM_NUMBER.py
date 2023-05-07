@@ -1,10 +1,10 @@
 n=int(input())
-a=list(map(int,input().split()))
-u=[]
-for i in a:
-    if a.count(i)==1:
-        u.append(i)
-if len(u)==0:
+arr=list(map(int,input().split()))
+uniq=[]
+for i in arr:
+    if arr.count(i)==1:
+        uniq.append(i)
+if len(uniq)==0:
     print(-1)
 else:
-    print(max(u))
+    print(max(uniq))
