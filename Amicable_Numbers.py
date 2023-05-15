@@ -8,7 +8,7 @@ n=int(input())
 m=int(input())
 s=fact(n)
 x=fact(m)
-if(n==x and s==m):
+if n==x and s==m:
     print('Amicable')
 else:
     print('Not Amicable')
