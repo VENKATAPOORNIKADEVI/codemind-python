@@ -1,4 +1,4 @@
-def pr(n):
+def prime(n):
     if(n==1):
         return 0
     else:
@@ -7,11 +7,10 @@ def pr(n):
                 return 0
                 break
     return 1
-
 a=int(input())
 b=int(input())
 c=0
 for i in range(a,b+1):
-    if(pr(i)==1):
+    if(prime(i)==1):
         c+=1
 print(c)
