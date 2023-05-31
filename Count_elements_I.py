@@ -3,9 +3,9 @@ x=list(map(int,input().split()))
 y=list(map(int,input().split()))
 c=set(x)
 d=set(y)
-t=0
+ct=0
 for i in c:
     for j in d:
         if i==j:
-            t+=1
-print(t)
+            ct+=1
+print(ct)
